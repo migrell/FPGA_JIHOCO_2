@@ -204,7 +204,7 @@ module uart_tx (
                 end
             end
             
-            default: begin //집가고싶다 시발 
+            default: begin //집가고싶다 
                 next = IDLE;
                 tx_next = 1'b1;
             end

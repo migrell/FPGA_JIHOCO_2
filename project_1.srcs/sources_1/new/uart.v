@@ -204,7 +204,7 @@ module uart_tx (
                 end
             end
             
-            default: begin //집가고싶다 
+            default: begin //오늘은 센스있게 전담샾 주변에서 공부하다 10시 마감전에 가서 같이 담배피고 퇴근길 데려다주기
                 next = IDLE;
                 tx_next = 1'b1;
             end
